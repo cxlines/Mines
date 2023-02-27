@@ -1,0 +1,23 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url('img/pg_backg.png');
+    cursor: pointer;
+    overflow: hidden;
+  }
+.bgpic {
+  background-image: url('img/cred_backg.png');
+  width: 700px;
+  height: 210px;
+  cursor: pointer;
+  border: 10px;
+  border-color: darkturquoise;
+  }
+.bmbfont {
+  background-image: url('img/bmbfont.png');
+  width: 700px;
+  height: 210px;
+  cursor: pointer;
+  border: 10px;
+  border-color: darkturquoise;
+    }

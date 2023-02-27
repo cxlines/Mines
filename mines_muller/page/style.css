@@ -1,0 +1,58 @@
+body,html {
+  text-align: center;
+  background-image: url('img/pg_backg.png');
+  cursor: pointer;
+}
+
+#board {
+  border: 1px solid #333;
+  display: inline-block;
+  text-align: center;
+}
+
+.row {
+  font-size: 0px;
+}
+
+.col {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: rgba(176, 252, 255, 0.87);
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  vertical-align: top;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 50px;
+  transition: all 1.0s;
+}
+
+.col.hidden {
+  background-image: url('img/hidd_bmb.png');
+  cursor: pointer;
+}
+
+.col.hidden:hover {
+  background-color: rgb(33, 247, 247);
+}
+
+.row:last-child .col {
+  border-bottom: none;
+}
+
+.row .col:last-child {
+  border-right: none;
+}
+
+.winnr.mine {
+  background-image: url('win_bmb.png');
+  cursor: pointer;
+  transition: all 1.0s;
+}
+
+.losr.mine {
+  background-image: url('lose_bmb.png');
+  cursor: pointer;
+  transition: all 1.0s;
+}
